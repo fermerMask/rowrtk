@@ -20,7 +20,6 @@ import datetime
 nmea = NMEA()
 stroke = Stroke()
 HEIGHT = 150
-model = '../models/pose_landmarker_lite.task'
 
 def data_load(file):
     lines = file.readlines()
